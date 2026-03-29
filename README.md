@@ -1,13 +1,36 @@
-##  Docker Setup
+#  AWS + DevOps Project: Static Website Deployment with Docker
 
-This project is containerized using Docker.
+#  Project Overview
+This project demonstrates the deployment of a static website on a cloud server using AWS EC2, Nginx, and Docker.  
+It covers the complete DevOps workflow including server setup, web hosting, containerization, and version control.
 
-## Steps:
-1. Build Docker image:
-   docker build -t my-website .
+🛠️ Technologies Used
+- ☁️ AWS EC2 (Cloud Server)
+- 🌐 Nginx (Web Server)
+- 🐳 Docker (Containerization)
+- 🔁 Git & GitHub (Version Control)
+- 💻 HTML & CSS (Frontend)
 
-2. Run container:
-   docker run -d -p 8080:80 my-website
+⚙️ Step-by-Step Implementation
 
-3. Access:
-   http://13.212.96.115:8080
+🔹 Step 1: Launch EC2 Instance
+- Created Ubuntu EC2 instance on AWS
+- Configured Security Group:
+  - Port 22 (SSH)
+  - Port 80 (HTTP)
+  - Port 8080 (Docker)
+
+ 🔹 Step 2: Connect to Server
+Connected to EC2 using SSH (EC2 Instance Connect)
+
+🔹 Step 3: Install Nginx
+
+sudo apt update
+sudo apt install nginx -y
+
+🔹 Step 4: Deploy Website
+
+index.html
+style.css
+
+🔹 Step 5: Host Website
