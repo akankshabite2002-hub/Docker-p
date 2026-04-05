@@ -1,4 +1,4 @@
-#  AWS + DevOps Project: Static Website Deployment with Docker
+# Static Website Deployment with Docker
 
 #  Project Overview
 This project demonstrates the deployment of a static website on a cloud server using AWS EC2, Nginx, and Docker.  
