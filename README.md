@@ -1,8 +1,18 @@
 # Static Website Deployment with Docker
 
-#  Project Overview
-This project demonstrates the deployment of a static website on a cloud server using AWS EC2, Nginx, and Docker.  
-It covers the complete DevOps workflow including server setup, web hosting, containerization, and version control.
+📌 Project Overview
+
+In this project, a simple static website (built with HTML and CSS) is packaged into a Docker container and served using a web server.
+
+Docker ensures that the application runs the same way on amazon machine, solving the common issue of
+
+🛠️ Tech Stack
+
+- Docker
+- HTML5
+- CSS3
+- 
+📂 Project Structure
 
 🛠️ Technologies Used
 - ☁️ AWS EC2 (Cloud Server)
