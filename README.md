@@ -11,7 +11,7 @@ Docker ensures that the application runs the same way on amazon machine, solving
 - Docker
 - HTML5
 - CSS3
-- 
+  
 📂 Project Structure
 
 🛠️ Technologies Used
